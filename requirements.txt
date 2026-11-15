@@ -2,3 +2,4 @@ rfdetr
 supervision
 pillow
 opencv-python
+pyrealsense2

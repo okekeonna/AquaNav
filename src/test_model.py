@@ -124,7 +124,7 @@ def main() -> None:
     from rfdetr import RFDETRSmall
 
     print(f"Loading model from {weights} ...")
-    model = RFDETRSmall(pretrain_weights=str(weights))
+    model = RFDETRSmall(pretrain_weights=str(weights), num_classes=3)
 
     if args.classes:
         names = parse_classes(args.classes)
