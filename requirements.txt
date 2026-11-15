@@ -3,3 +3,4 @@ supervision
 pillow
 opencv-python
 pyrealsense2
+pybullet
