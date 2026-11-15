@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+
+# Large trained model files
+*.pt
+
+# Generated outputs
+runs/
